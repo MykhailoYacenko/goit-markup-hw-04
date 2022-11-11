@@ -444,7 +444,6 @@ li > a {
 }
 .bot-socials {
   margin-left: 70px;
-
   width: 206px;
   height: 80px;
 }
@@ -452,7 +451,6 @@ li > a {
   margin-top: 20px;
   display: flex;
 }
-
 .bot-social-link.item {
   width: 44px;
   height: 44px;
@@ -462,7 +460,6 @@ li > a {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-
 .bot-social-link-icon {
   margin-top: 12px;
   fill: currentColor;
