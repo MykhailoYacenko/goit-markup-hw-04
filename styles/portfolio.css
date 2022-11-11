@@ -259,9 +259,13 @@ li > a {
   text-transform: uppercase;
   color: #ffffff;
 }
+.social-link-page {
+  padding: 12px;
+  padding-top: 12.5px;
+  padding-bottom: 9px;
+}
 .bot-socials {
   margin-left: 70px;
-
   width: 206px;
   height: 80px;
 }
@@ -284,10 +288,12 @@ li > a {
   fill: currentColor;
 }
 .bot-social-link.item:hover,
-.bot-social-link.item:focus {
-  background-color: var(--accent-color);
+.social-link-page:focus {
   color: #ffffff;
+  background-color: var(--accent-color);
+  border-radius: 50%;
 }
+
 .bot-social-link:last-of-type {
   margin-right: 0px;
 }

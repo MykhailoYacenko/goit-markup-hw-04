@@ -203,7 +203,7 @@ li > a {
   justify-content: center;
 }
 .feature-item {
-  min-width: 270px;
+  flex-basis: calc(100% / 4 - var(--card-list-gap));
   margin-right: var(--card-list-gap);
 }
 .feature-item:last-of-type {
@@ -216,6 +216,7 @@ li > a {
   margin-bottom: var(--card-list-gap);
   justify-content: center;
   align-items: center;
+  background-color: var(--teamsection-background-color);
 }
 
 .feature-title {
@@ -330,7 +331,7 @@ li > a {
 }
 
 .social-link.item:hover,
-.social-link.item:focus {
+.social-link-page:focus {
   color: #ffffff;
   background-color: var(--accent-color);
   border-radius: 50%;
@@ -340,7 +341,9 @@ li > a {
   fill: currentColor;
 }
 .social-link-page {
-  padding: 11px;
+  padding: 12px;
+  padding-top: 12.5 px;
+  padding-bottom: 9px;
 }
 .regular-clients-title {
   font-family: "Roboto", sans-serif;
@@ -418,6 +421,14 @@ li > a {
   vertical-align: top;
   color: rgba(255, 255, 255, 0.6);
 }
+.bot-contact-item {
+  margin-top: 9px;
+  min-width: 231px;
+  min-height: 21px;
+}
+.bot-contact-item:first-child {
+  margin-top: 0px;
+}
 .bottom.container {
   display: flex;
   align-items: baseline;
@@ -451,12 +462,12 @@ li > a {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
+
 .bot-social-link-icon {
   margin-top: 12px;
   fill: currentColor;
 }
-.bot-social-link.item:hover,
-.bot-social-link.item:focus {
+.bot-social-link.item:hover {
   background-color: var(--accent-color);
   color: #ffffff;
 }
