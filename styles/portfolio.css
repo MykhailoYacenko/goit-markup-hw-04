@@ -287,7 +287,7 @@ li > a {
   margin-top: 12px;
   fill: currentColor;
 }
-.bot-social-link.item:hover,
+.social-link-page:hover,
 .social-link-page:focus {
   color: #ffffff;
   background-color: var(--accent-color);

@@ -129,7 +129,7 @@ li > a {
   color: var(--accent-color);
 }
 
-/*MAIN*/
+/*-------------------MAIN-----------------*/
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -141,6 +141,8 @@ li > a {
 .section:nth-of-type(2) {
   padding-bottom: 0px;
 }
+
+/*-------------HERO SECTION*--------------*/
 .hero {
   background-color: var(--secondary-background-color);
   text-align: center;
@@ -198,6 +200,8 @@ li > a {
   cursor: pointer;
 }
 
+/*------------FEATURE SECTION-------------*/
+
 .feature.list {
   display: flex;
   justify-content: center;
@@ -217,6 +221,7 @@ li > a {
   justify-content: center;
   align-items: center;
   background-color: var(--teamsection-background-color);
+  border-radius: 4px;
 }
 
 .feature-title {
@@ -240,6 +245,8 @@ li > a {
   letter-spacing: 0.03em;
 }
 
+/*--------WORKING PROCESS SECTION----------*/
+
 .team-title,
 .work-title {
   font-family: "Roboto", sans-serif;
@@ -262,6 +269,8 @@ li > a {
   margin-right: var(--card-list-gap);
   min-width: 370px;
 }
+
+/*-------------TEAMSECTION-------------*/
 .team {
   background-color: var(--teamsection-background-color);
 }
@@ -275,6 +284,7 @@ li > a {
 }
 .team-member.card {
   flex-basis: calc(100% / 4);
+  background-color: var(--primary-background-color);
   margin-left: var(--card-list-gap);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -308,6 +318,8 @@ li > a {
   letter-spacing: 0.03em;
   margin-top: 10px;
 }
+
+/*--------SOCIAL ICON SETTINGS----------*/
 .social-links.list {
   display: flex;
   width: 206px;
@@ -330,7 +342,7 @@ li > a {
   margin-right: 0px;
 }
 
-.social-link.item:hover,
+.social-link-page:hover,
 .social-link-page:focus {
   color: #ffffff;
   background-color: var(--accent-color);
@@ -345,6 +357,8 @@ li > a {
   padding-top: 15.5px;
   padding-bottom: 9px;
 }
+
+/*-----------REGULAR CLIENTS SECTION---------------*/
 .regular-clients-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -388,7 +402,7 @@ li > a {
   fill: currentColor;
 }
 
-/*FOOTER*/
+/*-----------------FOOTER--------------------*/
 .bot-contacts {
   font-style: normal;
   margin-top: 20px;
@@ -464,10 +478,7 @@ li > a {
   margin-top: 12px;
   fill: currentColor;
 }
-.bot-social-link.item:hover {
-  background-color: var(--accent-color);
-  color: #ffffff;
-}
+
 .bot-social-link:last-of-type {
   margin-right: 0px;
 }
